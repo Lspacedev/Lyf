@@ -1,3 +1,7 @@
+.App {
+  background-color: #ffffff;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -6,12 +10,12 @@
 
 .logo {
   font-size: 1.4rem;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .logo span {
   font-weight: bold;
   margin-right: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-buttons-menu {
   display: flex;
@@ -38,4 +42,81 @@
   height: 3px;
   background-color: black;
   margin: 6px 0;
+}
+
+.Intro {
+  text-align: center;
+  padding: 10px;
+  margin: 25px;
+}
+
+.intro-heading {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.intro-text {
+  font-size: 1.4rem;
+}
+
+.Email {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-email {
+  position: relative;
+}
+
+.Email input[type="email"] {
+  padding: 15px 65px;
+  border-radius: 40px;
+
+  border: 1px solid black;
+}
+
+.Email input[type="email"]::placeholder {
+  font-weight: bold;
+}
+
+.Email input[type="submit"] {
+  padding: 15px 35px;
+  border-radius: 40px;
+
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  margin: 25px;
+  gap: 10px;
+}
+
+.Plan {
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+
+  border-radius: 10%;
+}
+
+.lime {
+  background-color: #5ecca0;
+}
+
+.black {
+  background-color: #0d0d0d;
+}
+
+.violet {
+  background-color: #cb9bfb;
+}
+
+.yellow {
+  background-color: #fbfb93;
 }
