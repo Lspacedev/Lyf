@@ -44,13 +44,18 @@ function Main() {
         <Email />
       </div>
       <div className="featured-plans">
+        <div className="featured-headings">
+          <h2>Featured Plans</h2>
+          <div>Explore All</div>
+        </div>
         <div className="plans">
           {plansData.map((plan) => (
             <Plan
               color={plan.color}
               category={plan.category}
               heading={plan.heading}
-              info={plan.year}
+              info={plan.info}
+              year={plan.year}
               percent={plan.percent}
             />
           ))}

@@ -89,6 +89,16 @@
   border: none;
 }
 
+.featured-headings {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-headings div {
+  display: flex;
+  align-items: center;
+}
+
 .plans {
   display: flex;
   justify-content: space-evenly;
@@ -103,6 +113,10 @@
   padding: 10px;
 
   border-radius: 10%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .lime {
@@ -111,6 +125,7 @@
 
 .black {
   background-color: #0d0d0d;
+  color: white;
 }
 
 .violet {
@@ -119,4 +134,26 @@
 
 .yellow {
   background-color: #fbfb93;
+}
+
+.category {
+  font-size: 0.6rem;
+}
+
+.heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 0.8rem;
+}
+
+.year {
+  font-size: 0.9rem;
+}
+
+.percent {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
