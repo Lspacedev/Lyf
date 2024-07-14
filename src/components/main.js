@@ -46,11 +46,12 @@ function Main() {
       <div className="featured-plans">
         <div className="featured-headings">
           <h2>Featured Plans</h2>
-          <div>Explore All</div>
+          <h3>Explore All</h3>
         </div>
         <div className="plans">
-          {plansData.map((plan) => (
+          {plansData.map((plan, i) => (
             <Plan
+              key={i}
               color={plan.color}
               category={plan.category}
               heading={plan.heading}
@@ -60,6 +61,7 @@ function Main() {
             />
           ))}
         </div>
+        <hr></hr>
       </div>
     </div>
   );
