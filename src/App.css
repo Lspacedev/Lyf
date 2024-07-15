@@ -289,7 +289,7 @@ body {
   grid-row-end: 8;
   display: flex;
   justify-content: space-between;
-  padding: 5px 0px;
+  padding: 25px 0px;
 }
 
 .terms-customer {
@@ -322,79 +322,7 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 1000px) {
-  .plans {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    height: auto;
-
-    gap: 20px;
-
-    margin-bottom: 35px;
-  }
-
-  .nav {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .nav-buttons-menu {
-    width: 100%;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  body {
-    padding: 0px 0px;
-  }
-  .App {
-    padding: 0;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1440px) {
-  .plans {
-    gap: 25px;
-  }
-
-  .Plan {
-    padding: 30px 30px;
-  }
-
-  .category {
-    font-size: 0.9rem;
-  }
-
-  .heading {
-    font-size: 1.8rem;
-
-    margin: 8px 0px;
-
-    padding: 0px;
-  }
-
-  .info {
-    font-size: 1.02rem;
-  }
-  .line {
-    height: 1px;
-
-    margin: 30px 0px;
-  }
-  .year {
-    font-size: 1rem;
-  }
-
-  .percent {
-    font-size: 2.2rem;
-  }
-}
-
-@media (min-width: 1441px) and (max-width: 2560px) {
+@media (min-width: 1921px) and (max-width: 2560px) {
   .Intro {
     padding: 20px;
     margin: 100px 25px 25px 25px;
@@ -474,5 +402,120 @@ body {
 
   .footer-arrow {
     padding: 0px 45px;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .plans {
+    gap: 15px;
+  }
+
+  .Plan {
+    padding: 35px 35px;
+  }
+
+  .category {
+    font-size: 0.8rem;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 8px 0px;
+
+    padding: 0px;
+  }
+
+  .info {
+    font-size: 1.1rem;
+  }
+  .line {
+    height: 1px;
+    background-color: #6f6f6f;
+    margin: 22px 0px;
+  }
+  .year {
+    font-size: 1.2rem;
+  }
+
+  .percent {
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .plans {
+    gap: 25px;
+  }
+
+  .Plan {
+    padding: 30px 30px;
+  }
+
+  .category {
+    font-size: 0.9rem;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+
+    margin: 8px 0px;
+
+    padding: 0px;
+  }
+
+  .info {
+    font-size: 1.02rem;
+  }
+  .line {
+    height: 1px;
+
+    margin: 30px 0px;
+  }
+  .year {
+    font-size: 1rem;
+  }
+
+  .percent {
+    font-size: 2.2rem;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1024px) {
+  .Main {
+    padding: 0px;
+    margin: 0px;
+  }
+  .plans {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .plans {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: auto;
+
+    gap: 20px;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-buttons-menu {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .App {
+    padding: 0;
   }
 }
