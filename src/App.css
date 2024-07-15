@@ -45,13 +45,14 @@ body {
 }
 
 .logo {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .logo span {
+  font-size: 1.4rem;
   font-weight: bold;
   margin-right: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .nav-buttons-menu {
   display: flex;
