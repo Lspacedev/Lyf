@@ -322,7 +322,13 @@ body {
   color: white;
 }
 
-@media (min-width: 1921px) and (max-width: 2560px) {
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+  .logo {
+    font-size: 2.8rem;
+  }
+  .nav-buttons-menu {
+    font-size: 2rem;
+  }
   .Intro {
     padding: 20px;
     margin: 100px 25px 25px 25px;
@@ -335,9 +341,24 @@ body {
     line-height: normal;
   }
 
+  .log-in,
+  .start {
+    font-size: 1.7rem;
+    padding: 20px 45px;
+  }
+
   .intro-text {
-    font-size: 2.4rem;
-    margin: 25px;
+    font-size: 3rem;
+  }
+
+  .Email input[type="email"] {
+    padding: 25px 125px;
+    font-size: 1.3rem;
+  }
+
+  .Email input[type="submit"] {
+    padding: 15px 50px;
+    font-size: 1.3rem;
   }
 
   .featured-headings {
@@ -381,12 +402,16 @@ body {
   }
   .year {
     font-size: 1.8rem;
-    margin: 15px 0px;
+    margin: 15px 0px 5px 0px;
   }
 
   .percent {
     font-size: 4rem;
     margin: 20px 0px;
+  }
+
+  .arrow {
+    padding: 7px 25px;
   }
 
   .Footer {
@@ -401,7 +426,7 @@ body {
   }
 
   .footer-arrow {
-    padding: 0px 45px;
+    padding: 0px 5px;
   }
 }
 
