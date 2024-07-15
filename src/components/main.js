@@ -25,7 +25,7 @@ function Main() {
       category: "STRATEGY",
       heading: "Focussed",
       info: "Be focused Life planning, however, can serve as a roadmap or guide.",
-      year: "1 yrs CAGR",
+      year: "1 yrs returns",
       percent: "11.20%",
     },
     {
@@ -61,7 +61,6 @@ function Main() {
             />
           ))}
         </div>
-        <hr></hr>
       </div>
     </div>
   );

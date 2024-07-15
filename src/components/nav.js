@@ -5,8 +5,10 @@ function Nav(props) {
         <span>Lyf-&#41;</span> /isurance@tiropay.au
       </div>
       <div className="nav-buttons-menu">
-        <button className="log-in">Log In</button>
-        <button className="start">Get Started</button>
+        <div className="log-start">
+          <button className="log-in">Log In</button>
+          <button className="start">Get Started</button>
+        </div>
         <div className="burger">
           <div></div>
           <div></div>

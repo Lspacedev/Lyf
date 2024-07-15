@@ -5,11 +5,13 @@ function Email() {
     <div className="Email">
       <div className="input-email">
         <IoIosSend
+          className="send-icon"
           style={{
             position: "absolute",
             top: "10px",
             left: "10px",
             fontSize: "1.6rem",
+            marginRight: "0px",
           }}
         />
 

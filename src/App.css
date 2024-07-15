@@ -19,7 +19,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px 50px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #ffffff;
 }
 
@@ -57,6 +57,11 @@ body {
 .nav-buttons-menu {
   display: flex;
   justify-content: space-evenly;
+  gap: 10px;
+}
+
+.log-start {
+  display: flex;
   gap: 10px;
 }
 
@@ -136,17 +141,23 @@ body {
 }
 
 .Email input[type="email"] {
-  padding: 15px 65px;
+  padding: 14px 85px;
+  margin: 0px;
+
   border-radius: 40px;
   border: none;
 }
 
 .Email input[type="email"]::placeholder {
   font-weight: bold;
+  text-align: start;
+  
 }
 
 .Email input[type="submit"] {
-  padding: 15px 35px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 14px 35px;
   border-radius: 40px;
 
   background-color: black;
@@ -199,9 +210,13 @@ body {
 }
 
 .category {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  color: rgb(106, 106, 106);
 }
 
+.black .category {
+  color: #969696;
+}
 .heading {
   font-size: 1.2rem;
   font-weight: bold;
@@ -220,6 +235,7 @@ body {
 }
 .year {
   font-size: 0.8rem;
+  color: rgb(73, 73, 73);
 }
 
 .percent {
@@ -227,6 +243,16 @@ body {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
+
+  color: #202020;
+}
+
+.black .percent {
+  color: white;
+}
+
+.black .year {
+  color: #969696;
 }
 
 .arrow {
@@ -288,6 +314,10 @@ body {
 .Footer {
   grid-row-start: 6;
   grid-row-end: 8;
+ 
+}
+
+.footer-info {
   display: flex;
   justify-content: space-between;
   padding: 25px 0px;
@@ -313,7 +343,7 @@ body {
   display: flex;
   align-items: center;
   border-radius: 20px;
-  padding: 0px 10px;
+  padding: 7px 10px;
   border: 1px solid black;
 }
 
@@ -353,13 +383,19 @@ body {
   }
 
   .Email input[type="email"] {
-    padding: 25px 125px;
+    padding: 25px 145px;
     font-size: 1.3rem;
   }
 
   .Email input[type="submit"] {
     padding: 15px 50px;
     font-size: 1.3rem;
+  }
+
+  .send-icon {
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 4rem;
   }
 
   .featured-headings {
@@ -518,15 +554,22 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+
   .plans {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    height: auto;
-
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
+    height: auto;
+ 
   }
+
+  .Plan {
+    width: 50%;
+ 
+
+  }
+  
 
   .nav {
     flex-direction: column;
@@ -534,9 +577,26 @@ body {
   }
 
   .nav-buttons-menu {
-    width: 100%;
+ 
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+
+  .log-start {
+    gap: 10px;
+
+  }
+
+  .start {
+    margin: 0px;
+  
+  }
+
+ 
+  .log-in, .start {
+    padding: 10px 25px;
   }
 }
 
@@ -545,8 +605,45 @@ body {
     padding: 0px;
   }
 
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+ 
+  }
+
+  .Plan {
+    flex: 100%;    
+ 
+
+  }
+
   .Main,
   .Footer {
     padding: 0px 25px;
+  }
+
+  .nav-buttons-menu {
+ 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+
+  .log-start {
+    gap: 10px;
+
+  }
+
+  .start {
+    margin: 0px;
+  
+  }
+
+ 
+  .log-in, .start {
+    padding: 10px 25px;
   }
 }
