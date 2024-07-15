@@ -540,7 +540,12 @@ body {
 }
 
 @media screen and (max-width: 425px) {
-  .App {
-    padding: 0;
+  body {
+    padding: 0px;
+  }
+
+  .Main,
+  .Footer {
+    padding: 0px 25px;
   }
 }
