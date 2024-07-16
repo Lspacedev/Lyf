@@ -19,7 +19,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #ffffff;
 }
 
@@ -63,7 +63,6 @@ body {
 .log-start {
   display: flex;
   gap: 10px;
-  
 }
 
 .log-in {
@@ -71,7 +70,6 @@ body {
   padding: 12px 28px;
   border-radius: 40px;
   font-size: 0.9rem;
-  
 
   font-weight: bold;
   background-color: #ffffff;
@@ -154,7 +152,6 @@ body {
 .Email input[type="email"]::placeholder {
   font-weight: bold;
   text-align: start;
-  
 }
 
 .Email input[type="submit"] {
@@ -317,7 +314,6 @@ body {
 .Footer {
   grid-row-start: 6;
   grid-row-end: 8;
- 
 }
 
 .footer-info {
@@ -466,7 +462,8 @@ body {
   }
 
   .footer-arrow {
-    padding: 0px 5px;
+    padding: 30px 30px;
+    border-radius: 30px;
   }
 }
 
@@ -557,22 +554,17 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-
   .plans {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
     height: auto;
- 
   }
 
   .Plan {
     width: 50%;
- 
-
   }
-  
 
   .nav {
     flex-direction: column;
@@ -580,25 +572,21 @@ body {
   }
 
   .nav-buttons-menu {
- 
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
-    
   }
 
   .log-start {
     gap: 10px;
-
   }
 
   .start {
     margin: 0px;
-  
   }
 
- 
-  .log-in, .start {
+  .log-in,
+  .start {
     padding: 10px 25px;
   }
 }
@@ -610,16 +598,14 @@ body {
 
   .plans {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
     height: auto;
- 
   }
 
   .Plan {
-    flex: 100%;    
- 
-
+    width: 50%;
   }
 
   .Main,
@@ -628,25 +614,40 @@ body {
   }
 
   .nav-buttons-menu {
- 
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
-    
   }
 
   .log-start {
     gap: 10px;
-
   }
 
   .start {
     margin: 0px;
-  
   }
 
- 
-  .log-in, .start {
+  .log-in,
+  .start {
     padding: 10px 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    padding: 0px;
+  }
+
+  .plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+    height: auto;
+  }
+
+  .Plan {
+    width: 90%;
   }
 }
