@@ -8,10 +8,10 @@ function Email() {
           className="send-icon"
           style={{
             position: "absolute",
-            top: "10px",
+            top: "13px",
             left: "10px",
-            fontSize: "1.6rem",
-            marginRight: "0px",
+            fontSize: "1.4rem",
+            margin: "0px",
           }}
         />
 
